@@ -34,7 +34,7 @@ do
    let "number %= 100"
    if [ "$number" -lt $DISABLED_PERCENTAGE ]; then
        echo "#selectspell $i"
-       echo "#clear"
+       echo "#school -1"
        echo "#end"
    fi
 done
