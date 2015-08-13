@@ -3,7 +3,7 @@
 # NOTE: Using modulo doesn't typically generate precisely evenly distributed random results, but it's close enough for purposes of this mod.
 # Randomly disable items, but purposefully leave in the Nation specific items.
 
-DISABLED_PERCENTAGE=25
+DISABLED_PERCENTAGE=$1
 
 # Which ids are candidates for disablement was determined just by visual inspection in the Dom4 Mod Inspector.
 DisablementCandidates=($(seq 0 499)) # according to the mod manual that's the range of all standard items
