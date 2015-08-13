@@ -12,7 +12,7 @@ DISABLED_PERCENTAGE=$1
 DisablementCandidates=($(seq 0 1100)) # according to the mod manual that's the range of all standard spells
 Hidden=($(seq 0 149) 171 286 312 315 408 409 1025)
 Holy=($(seq 150 159))
-Critical=($(seq 160 167) 872 873)
+Critical=($(seq 160 167) 872 873 945 946)
 National=($(seq 168 407) 442 462 $(seq 647 649) $(seq 1016 1021) 1026 1027 $(seq 1030 1039) $(seq 1044 1064))
 AllToKeep=(${Hidden[@]} ${Holy[@]} ${Critical[@]} ${National[@]})
 
