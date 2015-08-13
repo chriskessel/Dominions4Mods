@@ -6,7 +6,7 @@
 # - national spells
 # - level 0 spells
 
-DISABLED_PERCENTAGE=25
+DISABLED_PERCENTAGE=$1
 
 # Which spells ids are candidates for disablement was determined just by visual inspection in the Dom4 Mod Inspector.
 DisablementCandidates=($(seq 0 1100)) # according to the mod manual that's the range of all standard spells
